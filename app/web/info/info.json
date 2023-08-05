@@ -1,0 +1,28 @@
+{
+    "boardText": [
+        {
+            "tittle": "Special Login System",
+            "text": "You are safe about security and signing since we are using latest AWS tech."
+        },
+        {
+            "tittle": "Telepresence",
+            "text": "Perform actions in a virtual location as if you and your team were physically present in that location."
+        },
+        {
+            "tittle": "Collaborative Tools",
+            "text": "Present, Brief, Brainstorm or simply explain with our toolset including a presentation screen and a whiteboard."
+        },
+        {
+            "tittle": "Simulated Enviroments",
+            "text": "Increased memory retention, performing dangerous tasks in a risk free environment, the ability to repeat exercises, isolation from distractions and detailed skills assessment."
+        },
+        {
+            "tittle": "Cross Play Functionality",
+            "text": "Just pickup your device of choice: Desktop, Mobile, VR. No matter which device you choose, you can jump onboard at anytime from anywhere."
+        },
+        {
+            "tittle": "Weekly Analytics",
+            "text": "Get insights from your training to ensure that every component of the Learning course is helping trainees towards achieving their objectives and goals."
+        }
+    ]
+}
