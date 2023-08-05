@@ -30,7 +30,9 @@ export default function About() {
                             Trainees get to safely experience situations that may normally be unsafe,
                             and most importantly, they can practice in these virtual simulations as
                             often as needed to feel prepared and confident.</p>
-                        <Image width={300} height={300} src="https://assets.website-files.com/6193c9dbb809764879877eec/61a4b22765af7a9b88f8c42d_visit_elem-01.png" />
+                        {/* <Image width={300} height={300} src="https://assets.website-files.com/6193c9dbb809764879877eec/61a4b22765af7a9b88f8c42d_visit_elem-01.png" /> */}
+                        <video autoPlay muted loop src="https://stimulusvr.com/video/polina.mp4"></video>
+                        <div className='background-video'></div>
                     </div>
                 </div>
             </div>
