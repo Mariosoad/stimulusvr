@@ -3,6 +3,7 @@
 import localFont from 'next/font/local'
 import Script from 'next/script'
 import Navigation from '@/components/Navbar/Navigation'
+import Footer from '@/components/Footer/footer'
 
 //STYLE GLOBAL
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -45,6 +46,7 @@ export default function RootLayout({ children }) {
       <body className={`${neuemachina.variable}`}>
         <Navigation />
         {children}
+        <Footer />
       </body>
     </html>
   )

@@ -59,3 +59,7 @@
 .board-info-container:hover p {
     color: white;
 }
+
+.board-info-container:hover {
+    border-bottom: dashed 1px #009BDE40;
+}
