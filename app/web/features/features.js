@@ -2,9 +2,9 @@
 import { GiDeathStar } from 'react-icons/gi';
 import data from './info.json'
 
-import "./info.css"
+import "./features.css"
 
-export default function Info() {
+export default function Features() {
 
     const dataText = data.boardText;
 

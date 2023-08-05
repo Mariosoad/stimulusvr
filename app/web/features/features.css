@@ -13,7 +13,7 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    row-gap: 30px;
+    row-gap: 40px;
 }
 
 .child-container-info h2 {
@@ -26,8 +26,8 @@
     width: 100%;
 }
 
-.child-container-info div:first-child{
-    border-top: dashed 2px #878f9a;
+.child-container-info div:first-child {
+    border-top: dashed 1px #878f9a40;
 }
 
 .board-info-container {
@@ -39,7 +39,7 @@
     justify-content: space-between;
     column-gap: 20px;
     /* border-top: dashed 2px #878f9a; */
-    border-bottom: dashed 2px #878f9a;
+    border-bottom: dashed 1px #878f9a40;
 }
 
 .board-info-container h3 {

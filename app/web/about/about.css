@@ -1,0 +1,142 @@
+.container-about {
+    width: 100%;
+    padding: 80px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.child-container-about {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    row-gap: 40px;
+}
+
+.child-container-about h2 {
+    color: white;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.child-container-about p {
+    color: #878f9a;
+}
+
+.container-card-about {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    column-gap: 20px;
+}
+
+.container-card-about div:first-child {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    row-gap: 20px;
+}
+
+.container-card-about .card-about {
+    width: 65%;
+}
+
+.card-about {
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    overflow: hidden;
+    width: 50%;
+    height: 100% !important;
+    padding: 30px;
+    background-image: radial-gradient(circle farthest-corner at 90% -60%, rgba(0, 155, 222, .6), rgba(193, 24, 34, 0) 68%);
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    border: 1px solid rgba(154, 82, 97, .3);
+    border-radius: 10px;
+    -webkit-transition: .2s;
+    transition: .2s;
+    text-decoration: none;
+}
+
+
+
+.container-box-about {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.container-box-about h2 {
+    font-size: 2.5em;
+    width: 50%;
+}
+
+.container-box-about p {
+    width: 40%; 
+}
+
+.box-about {
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    height: 100% !important;
+    padding: 30px;
+    background-image: radial-gradient(circle farthest-corner at 90% -60%, rgba(0, 155, 222, .6), rgba(193, 24, 34, 0) 68%);
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: start;
+    -webkit-align-items: center;
+    -ms-flex-align: start;
+    align-items: center;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    justify-content: space-between;
+    border: 1px solid rgba(154, 82, 97, .3);
+    border-radius: 10px;
+    -webkit-transition: .2s;
+    transition: .2s;
+    text-decoration: none;
+    z-index: 9;
+}
+.box-about img {
+    position: absolute;
+    margin: auto;
+    left: 0px;
+    right: 0px;
+    z-index: -1;
+}
