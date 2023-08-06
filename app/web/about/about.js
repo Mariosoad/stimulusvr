@@ -28,7 +28,7 @@ export default function About() {
                     <div>
                         <h2>No need for obsolete <br></br> e-learning tools</h2>
                     </div>
-                    <div className='card-about'>
+                    <div className='card-about right'>
                         <p>VR reduced the training from long periods of time to minutes,
                             with no drop in efficacy and the most important thing:
                             time & budget cost effective. You can do the math as to what

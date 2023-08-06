@@ -17,14 +17,14 @@
         width: 80%;
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
         justify-content: center;
         row-gap: 40px;
     }
 
     .child-container-plan h2 {
         width: 45%;
-        text-align: left;
+        text-align: center;
         font-weight: 700;
         color: white;
     }
@@ -209,14 +209,14 @@
         width: 80%;
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
         justify-content: center;
         row-gap: 40px;
     }
 
     .child-container-plan h2 {
-        width: 40%;
-        text-align: left;
+        width: 43%;
+        text-align: center;
     }
 
     .board-plan {
@@ -387,7 +387,7 @@
 @media (min-width: 1590px) {
     .container-plan {
         width: 100%;
-        padding: 0px 0px 80px;
+        padding: 40px 0px 80px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -398,14 +398,15 @@
         width: 80%;
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
         justify-content: center;
         row-gap: 40px;
     }
 
     .child-container-plan h2 {
-        width: 32%;
-        text-align: left;
+        width: 45%;
+        text-align: center;
+        font-size: 2.5em;
     }
 
     .board-plan {
@@ -593,6 +594,7 @@
     }
 
     .child-container-plan h2 {
+        width: 58%;
         text-align: left;
         font-weight: 700;
         color: white;
@@ -783,6 +785,11 @@
         row-gap: 40px;
     }
 
+    .child-container-plan h2 {
+        width: 75%;
+        font-size: 2em;
+    }
+
     .board-plan {
         width: 100%;
         display: flex;
@@ -930,6 +937,7 @@
     }
 
     .child-container-plan h2 {
+        width: 100%;
         font-size: 1.5em;
         color: white;
     }
