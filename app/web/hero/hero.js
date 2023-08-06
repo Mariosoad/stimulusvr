@@ -28,7 +28,7 @@ export default function Hero() {
                     </p>
                     <div>
                         <a className='btn button-hero'>
-                            START FREE TRIAL <IoIosArrowDroprightCircle style={{ fontSize: "22px" }} />
+                            TRY OUR DEMO <IoIosArrowDroprightCircle style={{ fontSize: "22px" }} />
                         </a>
                     </div>
                 </div>

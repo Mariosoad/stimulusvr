@@ -1,6 +1,8 @@
 import React from 'react'
 
 import Image from 'next/image'
+import { BsWindows } from 'react-icons/bs';
+import { SiOculus } from 'react-icons/si';
 import { IoIosArrowDroprightCircle } from 'react-icons/io';
 
 import "./about.css"
@@ -9,6 +11,19 @@ export default function About() {
     return (
         <div className="container-about">
             <div className="child-container-about">
+                <div className='container-box-about'>
+                    <h2>Need a custom solution for simulating your own training environments?</h2>
+                    <div className='box-about'>
+                        <video autoPlay muted loop src="https://stimulusvr.com/video/polina.mp4"></video>
+                        <div className='background-video'></div>
+                    </div>
+                </div>
+                <div className='child-card-about left'>
+                    <p>We can offer on demand custom training modules to fit your needs, so your
+                        Trainees get to safely experience situations that may normally be unsafe,
+                        and most importantly, they can practice in these virtual simulations as
+                        often as needed to feel prepared and confident.</p>
+                </div>
                 <div className='container-card-about'>
                     <div>
                         <h2>No need for obsolete <br></br> e-learning tools</h2>
@@ -31,19 +46,6 @@ export default function About() {
                     <p>Don't have a VR device?
                         No worries, our app also works in Desktop and mobile devices.
                     </p>
-                </div>
-                <div className='container-box-about'>
-                    <h2>Need a custom solution for simulating your own training environments?</h2>
-                    <div className='box-about'>
-                        <video autoPlay muted loop src="https://stimulusvr.com/video/polina.mp4"></video>
-                        <div className='background-video'></div>
-                    </div>
-                </div>
-                <div className='child-card-about left'>
-                    <p>We can offer on demand custom training modules to fit your needs, so your
-                        Trainees get to safely experience situations that may normally be unsafe,
-                        and most importantly, they can practice in these virtual simulations as
-                        often as needed to feel prepared and confident.</p>
                 </div>
 
                 <a className='btn button-hero'>

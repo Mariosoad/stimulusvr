@@ -4,6 +4,12 @@
     transition: .2s;
 }
 
+.card-about:hover p {
+    color: white;
+    -webkit-transition: .2s;
+    transition: .2s;
+}
+
 .child-card-about:hover p {
     color: white;
     -webkit-transition: .2s;
@@ -401,7 +407,7 @@
 
     .container-box-about {
         width: 100%;
-        height: 700px;
+        height: 750px;
         display: flex;
         flex-direction: column;
         align-items: flex-end;
