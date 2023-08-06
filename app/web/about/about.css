@@ -780,7 +780,6 @@
 
 }
 
-
 /** 
  * (max-width: 512px)
  *  
@@ -837,10 +836,12 @@
     .container-card-about .card-about {
         width: 100%;
     }
-    .child-card-about{
+
+    .child-card-about {
         padding: 20px;
     }
-    .card-about{
+
+    .card-about {
         padding: 20px;
     }
 

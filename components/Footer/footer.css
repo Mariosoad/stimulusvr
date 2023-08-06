@@ -1,5 +1,6 @@
 .container-links .btn-navbar:hover {
     background-color: transparent !important;
+    border: none;
     color: white;
 }
 

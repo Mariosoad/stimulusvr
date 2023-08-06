@@ -5,6 +5,7 @@ import Hero from './web/hero/hero'
 import Features from './web/features/features'
 import About from './web/about/about'
 import Plan from './web/plan/plan'
+import Analitycs from './web/analitycs/analitycs'
 
 export default function Homepage() {
   return (
@@ -14,6 +15,7 @@ export default function Homepage() {
       <Features />
       <About />
       <Plan />
+      <Analitycs />
 
     </main>
   )

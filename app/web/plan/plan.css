@@ -23,6 +23,7 @@
     }
 
     .child-container-plan h2 {
+        width: 45%;
         text-align: left;
         font-weight: 700;
         color: white;
@@ -214,6 +215,7 @@
     }
 
     .child-container-plan h2 {
+        width: 40%;
         text-align: left;
     }
 
@@ -402,6 +404,7 @@
     }
 
     .child-container-plan h2 {
+        width: 32%;
         text-align: left;
     }
 
@@ -756,7 +759,6 @@
 
 }
 
-
 /** 
  * (max-width: 768px)
  *  
@@ -844,13 +846,13 @@
     }
 
     .plan-header {
-        width: 50%;
+        width: 70%;
     }
 
     .plan-header .details {
         width: 100%;
         margin: auto;
-        font-size: 0.7em;
+        font-size: 0.75em;
         line-height: 1.1em;
         padding: 0px 0px 15px;
     }
@@ -874,7 +876,7 @@
     }
 
     .plan-options p {
-        font-size: 0.7em;
+        font-size: 0.75em;
     }
 
     .check-option {
