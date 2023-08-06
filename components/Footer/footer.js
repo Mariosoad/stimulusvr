@@ -21,6 +21,7 @@ export default function Footer() {
                         <li><a href="https://www.youtube.com/watch?v=rgxx-g8stTU"><BsYoutube /></a></li>
                         <li><a href="https://vimeo.com/395997583"><BsVimeo /></a></li>
                     </ul>
+                    <a className='btn-navbar email' href='mailto:info@stimulusvr.com'>info@stimulusvr.com</a>
                 </div>
                 <div className='container-links'>
                     <div>

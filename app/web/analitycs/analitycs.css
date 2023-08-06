@@ -1,5 +1,6 @@
 .container-analitycs {
     width: 100%;
+    padding: 40px 0px 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -12,6 +13,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    row-gap: 30px;
 }
 
 .card-analitycs {
@@ -49,15 +51,16 @@
     background-image: radial-gradient(circle farthest-corner at -90% -60%, rgba(0, 155, 222, .6), rgba(1, 147, 195, 0) 68%) !important;
 }
 
-
 .anim-analitycs {
     width: 100%;
     display: flex;
     flex-direction: row;
+    column-gap: 30px;
 }
 
 .child-anim-analitycs {
     width: 40%;
+    margin-top: -25px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -66,6 +69,5 @@
 
 .anim-analitycs lottie-player {
     width: 100%;
-    margin-top: -32px;
-    margin-left: -19px;
+    filter: invert(90%) sepia(80%) saturate(200%) hue-rotate(175deg) brightness(75%) contrast(100%);
 }

@@ -1,8 +1,13 @@
 .container-navigation .bg-body-tertiary {
-    width: 80%;
+    width: 82%;
     height: 100%;
     padding: 0px !important;
     background-color: transparent !important;
+}
+
+.container-navigation {
+    position: fixed;
+    z-index: 9999 !important;
 }
 
 .container-fluid {
@@ -66,7 +71,7 @@
     .container-navigation {
         width: 100%;
         max-width: 100%;
-        padding-top: 40px;
+        padding: 20px 0px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -227,11 +232,13 @@
 @media (max-width: 980px) {
     .container-navigation {
         width: 100%;
-        margin-top: 30px;
+        padding: 20px 0px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        background-color: #1d2228 !important;
+        background-image: url("https://imagedelivery.net/Mag7Wvw4aqPxUrAH8_Tfkw/26c88590-fd0d-4758-b3fa-b0d3d22e8600/mobile");
     }
 
     .navigation {
@@ -368,7 +375,7 @@
 @media (max-width: 512px) {
     .container-navigation {
         width: 100%;
-        height: 80px;
+        height: auto;
     }
 
     .img-logo-nav {
