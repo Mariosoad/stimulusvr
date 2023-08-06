@@ -48,9 +48,9 @@ export default function About() {
                     </p>
                 </div>
 
-                <a className='btn button-hero'>
+                {/* <a className='btn button-hero'>
                     PURCHASE NOW <IoIosArrowDroprightCircle style={{ fontSize: "22px" }} />
-                </a>
+                </a> */}
             </div>
         </div>
     )

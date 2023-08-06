@@ -49,6 +49,7 @@ export default function Features() {
                 <div>
                     {arrayBoard}
                 </div>
+                <p className='try-container'>TRY IT ON</p>
                 <div className='container-button'>
                     <a className='btn button-hero'
                         href="https://www.stimulusvr.com/StimulusLauncher_WindowsInstaller.exe">
