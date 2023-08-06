@@ -7,16 +7,25 @@
 .container-links .btn-download {
     border-color: transparent !important;
 }
-.email{
+
+.email {
     font-size: 0.8em;
     margin-top: 5px;
     margin-left: -5px;
     letter-spacing: .1em;
+    line-height: 1em;
+    text-transform: uppercase;
+    color: #878f9a !important;
+    -webkit-transition: .2s;
+    transition: .2s;
 }
-.email:hover{
+
+.email:hover {
     background-color: transparent !important;
     border: none;
-    color: white;
+    color: white !important;
+    -webkit-transition: .2s;
+    transition: .2s;
 }
 
 /** 
