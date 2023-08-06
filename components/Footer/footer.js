@@ -35,7 +35,9 @@ export default function Footer() {
                 </div>
             </div>
             <div className='container-down-footer'>
-                <p>©2023 Stimulus. All Rights Reserved. </p>
+                <div className='child-container-down-footer'>
+                    <p>© 2023 Stimulus. All Rights Reserved. </p>
+                </div>
             </div>
         </div>
     )

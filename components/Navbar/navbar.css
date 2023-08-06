@@ -13,7 +13,7 @@
 .btn-toggle-navbar {
     border: none !important;
     outline: none !important;
-    color: #1A1A1A !important;
+    color: #878f9a !important;
 }
 
 .container-fluid {
@@ -22,20 +22,31 @@
 }
 
 .container-offcanvas {
-    background-color: white !important;
     color: #1A1A1A !important;
+    background-color: #1d2228 !important;
 }
 
 .container-offcanvas .nav-offcanvas {
     row-gap: 10px;
 }
 
+.offcanvas-header {
+    width: 90%;
+    margin: auto;
+    margin-top: 25px;
+}
+
 .offcanvas-header .btn-close {
     margin-right: 5px !important;
-    color: #1A1A1A !important;
-    font-size: 20px !important;
+    color: #878f9a !important;
+    font-size: 24px !important;
     outline: none !important;
     box-shadow: none !important;
+    filter: invert();
+}
+
+.btn-close {
+    color: #878f9a !important;
 }
 
 .navbar-toggler:focus {
@@ -93,7 +104,7 @@
     .btn-download {
         font-size: 14px;
         color: #fff;
-        padding: 12px 20px;
+        padding: 15px 30px;
         background-color: transparent;
         -webkit-transition: .2s;
         transition: .2s;
@@ -101,11 +112,14 @@
         text-align: center;
         letter-spacing: .1em;
         text-transform: uppercase;
+        border-radius: 10px;
+        border: 1px solid hsla(0, 0%, 100%, .3);
     }
 
     .btn-download:hover {
         color: #009BDE;
-        padding: 12px 20px;
+        border-color: #009BDE;
+        padding: 15px 30px;
         -webkit-transition: .2s;
         transition: .2s;
         font-weight: 700;
@@ -155,7 +169,8 @@
     }
 
     .btn-navbar:hover {
-        color: #009BDE;
+        color: white;
+        border-bottom: 1px solid white;
         background-color: transparent;
         font-weight: 500;
         padding: 12px 20px;
@@ -217,14 +232,6 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        position: fixed;
-        top: 0px;
-        z-index: 9;
-        backdrop-filter: blur(5px);
-        background-color: rgb(255 255 255 / 85%);
-        border-radius: 0px 0px 10px 10px;
-        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-        -webkit-backdrop-filter: blur(5px);
     }
 
     .navigation {
@@ -251,7 +258,7 @@
     }
 
     .container-brand {
-        width: 100%;
+        /* width: 100%; */
         display: flex;
         justify-content: space-between !important;
     }
@@ -300,17 +307,30 @@
     }
 
     .btn-download {
-        box-shadow: none !important;
-        background-color: #37BF3B !important;
-        color: #ffffff !important;
-        padding: 10px 16px !important;
-        border-radius: 10px !important;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        column-gap: 5px;
         font-size: 14px;
-        margin-left: 18px;
+        color: #fff;
+        padding: 15px 30px;
+        background-color: transparent;
+        -webkit-transition: .2s;
+        transition: .2s;
+        font-weight: 700;
+        text-align: center;
+        letter-spacing: .1em;
+        text-transform: uppercase;
+        border-radius: 10px;
+        border: 1px solid hsla(0, 0%, 100%, .3);
+    }
+
+    .btn-download:hover {
+        color: #009BDE;
+        border-color: #009BDE;
+        padding: 15px 30px;
+        -webkit-transition: .2s;
+        transition: .2s;
+        font-weight: 700;
+        text-align: center;
+        letter-spacing: .1em;
+        text-transform: uppercase;
     }
 }
 
@@ -352,8 +372,8 @@
     }
 
     .img-logo-nav {
-        width: 75px;
-        height: 50px;
+        width: 60px;
+        height: 60px;
     }
 
     .navigation {
@@ -362,7 +382,7 @@
     }
 
     .btn-navbar {
-        color: #1A1A1A;
+        color: #878f9a;
         padding: 12px 20px;
         border-radius: 10px;
         font-size: 1.2em;
@@ -370,15 +390,30 @@
     }
 
     .btn-download {
-        box-shadow: none !important;
-        background-color: #37BF3B !important;
-        color: #ffffff !important;
-        padding: 10px 16px !important;
-        border-radius: 10px !important;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        column-gap: 5px;
         font-size: 14px;
+        color: #fff;
+        padding: 15px 30px;
+        margin-left: 20px;
+        background-color: transparent;
+        -webkit-transition: .2s;
+        transition: .2s;
+        font-weight: 700;
+        text-align: center;
+        letter-spacing: .1em;
+        text-transform: uppercase;
+        border-radius: 10px;
+        border: 1px solid hsla(0, 0%, 100%, .3);
+    }
+
+    .btn-download:hover {
+        color: #009BDE;
+        border-color: #009BDE;
+        padding: 15px 30px;
+        -webkit-transition: .2s;
+        transition: .2s;
+        font-weight: 700;
+        text-align: center;
+        letter-spacing: .1em;
+        text-transform: uppercase;
     }
 }

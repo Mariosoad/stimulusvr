@@ -1,0 +1,42 @@
+{
+    "boardPlan": [
+        {
+            "nav": "FREE",
+            "header": {
+                "price": "u$d 0",
+                "month": "PER MONTH",
+                "detail": "Ideal for: Meetings and presentations"
+            },
+            "options": [
+                {
+                    "state": true,
+                    "text": "Up to 16 users"
+                },
+                {
+                    "state": true,
+                    "text": "Presentation Screen"
+                },
+                {
+                    "state": false,
+                    "text": "Custom Scenarios / Simulations"
+                },
+                {
+                    "state": true,
+                    "text": "Creator Mode"
+                },
+                {
+                    "state": false,
+                    "text": "Analytics"
+                },
+                {
+                    "state": true,
+                    "text": "Whiteboard"
+                },
+                {
+                    "state": false,
+                    "text": "Private Dedicated Server"
+                }
+            ]
+        }
+    ]
+}

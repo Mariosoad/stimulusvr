@@ -4,6 +4,7 @@ import ActiveFrames from '@/components/ActiveFrame'
 import Hero from './web/hero/hero'
 import Features from './web/features/features'
 import About from './web/about/about'
+import Plan from './web/plan/plan'
 
 export default function Homepage() {
   return (
@@ -12,6 +13,7 @@ export default function Homepage() {
       <Hero />
       <Features />
       <About />
+      {/* <Plan /> */}
 
     </main>
   )
