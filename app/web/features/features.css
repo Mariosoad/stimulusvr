@@ -1,4 +1,3 @@
-
 .child-container-feature .btn {
     margin: auto;
     margin-top: 45px;
@@ -442,5 +441,11 @@
 
     .board-feature-container:hover {
         border-bottom: dashed 1px #009BDE40;
+    }
+
+    .child-container-feature .btn {
+        margin: auto;
+        margin-top: 30px;
+        margin-bottom: 20px;
     }
 }

@@ -1,7 +1,7 @@
 
 import data from './plan.json'
-import { BsCheck } from 'react-icons/bs';
-import { GrFormClose } from 'react-icons/gr';
+import { BiCheck } from 'react-icons/bi';
+import { MdClose } from 'react-icons/md';
 
 import "./plan.css"
 
@@ -10,24 +10,32 @@ export default function Plan() {
     const dataPlan = data.boardPlan;
 
     const arrayBoardPlan = [];
+    let aosDuration = 0;
+    let aosDelay = 0;
     if (dataPlan != null) {
-        console.log(dataPlan)
         for (var j = 0; j < dataPlan.length; j++) {
             if (dataPlan[j] != null) {
+                aosDuration = `1${[j]}00`;
+                aosDelay = `${[j]}00`;
                 arrayBoardPlan.push(
-                    <div className='board-plan-container' data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
-                        <p>{dataPlan[j].nav}</p>
-                        <div>
-                            <h3>{dataPlan[j].header.price}</h3>
-                            <p>{dataPlan[j].header.month}</p>
-                            <p>{dataPlan[j].header.detail}</p>
-                        </div>
-                        {dataPlan[j].options.map((item, index) => (
-                            <div className='container-options' key={index}>
-                                {item.state == true ? <BsCheck /> : <GrFormClose />}
-                                <p>{item.text}</p>
+                    <div className='board-plan-container' data-aos="fade-up" data-aos-delay={aosDelay} data-aos-duration={aosDuration}>
+                        <p className='plan-nav'>{dataPlan[j].nav}</p>
+                        <div className='plan-header'>
+                            <div className='child-plan-header'>
+                                <h3>{dataPlan[j].header.price}</h3>
+                                <p>{dataPlan[j].header.month}</p>
                             </div>
-                        ))}
+                            <p className='details'>{dataPlan[j].header.detail}</p>
+                        </div>
+                        <div className='plan-options' >
+                            {dataPlan[j].options.map((item, index) => (
+                                <div className='child-plan-options' key={index}>
+                                    {item.state == true ? <BiCheck className='check-option' /> : <MdClose className='close-option' />}
+                                    <p>{item.text}</p>
+                                </div>
+                            ))}
+                        </div>
+                        <a className='plan-button' href={dataPlan[j].button.url}> {dataPlan[j].button.text} </a>
                     </div>
                 )
             }
@@ -35,19 +43,11 @@ export default function Plan() {
     }
 
     return (
-        <div>
-            <div>
-                {/* 1do Plan */}
-                <div>
+        <div className='container-plan'>
+            <div className='child-container-plan'>
+                <h2>Select your plan of your choice,<br /> no need to pay extra money.</h2>
+                <div className='board-plan'>
                     {arrayBoardPlan}
-                </div>
-                {/* 2do Plan */}
-                <div>
-
-                </div>
-                {/* 3ero Plan */}
-                <div>
-                    <p>hola plan</p>
                 </div>
             </div>
         </div>

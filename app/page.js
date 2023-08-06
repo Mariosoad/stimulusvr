@@ -13,7 +13,7 @@ export default function Homepage() {
       <Hero />
       <Features />
       <About />
-      {/* <Plan /> */}
+      <Plan />
 
     </main>
   )

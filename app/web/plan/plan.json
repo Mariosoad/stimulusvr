@@ -3,9 +3,9 @@
         {
             "nav": "FREE",
             "header": {
-                "price": "u$d 0",
-                "month": "PER MONTH",
-                "detail": "Ideal for: Meetings and presentations"
+                "price": "U$D 0",
+                "month": "/month",
+                "detail": "Meetings and presentations"
             },
             "options": [
                 {
@@ -36,7 +36,95 @@
                     "state": false,
                     "text": "Private Dedicated Server"
                 }
-            ]
+            ],
+            "button": {
+                "text": "GET STARTED NOW",
+                "url": "#"
+            }
+        },
+        {
+            "nav": "YOUR OWN VIRTUAL SPACE",
+            "header": {
+                "price": "U$D 250",
+                "month": "/month",
+                "detail": "Workshops, conferences, and presentations in a private safe server"
+            },
+            "options": [
+                {
+                    "state": true,
+                    "text": "Up to 16 users"
+                },
+                {
+                    "state": true,
+                    "text": "Presentation Screen"
+                },
+                {
+                    "state": false,
+                    "text": "Custom Scenarios / Simulations"
+                },
+                {
+                    "state": true,
+                    "text": "Creator Mode"
+                },
+                {
+                    "state": true,
+                    "text": "Analytics"
+                },
+                {
+                    "state": true,
+                    "text": "Whiteboard"
+                },
+                {
+                    "state": true,
+                    "text": "Private Dedicated Server"
+                }
+            ],
+            "button": {
+                "text": "GET STARTED NOW",
+                "url": "#"
+            }
+        },
+        {
+            "nav": "SIMULATION MODULES",
+            "header": {
+                "price": "Custom Pricing",
+                "month": "",
+                "detail": "Custom training modules on demand with Custom designed metrics"
+            },
+            "options": [
+                {
+                    "state": true,
+                    "text": "Up to 16 users"
+                },
+                {
+                    "state": true,
+                    "text": "Presentation Screen"
+                },
+                {
+                    "state": false,
+                    "text": "Custom Scenarios / Simulations"
+                },
+                {
+                    "state": true,
+                    "text": "Creator Mode"
+                },
+                {
+                    "state": false,
+                    "text": "Analytics"
+                },
+                {
+                    "state": true,
+                    "text": "Whiteboard"
+                },
+                {
+                    "state": false,
+                    "text": "Private Dedicated Server"
+                }
+            ],
+            "button": {
+                "text": "GET STARTED NOW",
+                "url": "#"
+            }
         }
     ]
 }
