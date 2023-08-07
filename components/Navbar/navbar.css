@@ -298,16 +298,6 @@
         font-weight: 600;
     }
 
-    .btn-navbar:hover {
-        color: #2F52A3;
-        background-color: #ffffff;
-        font-weight: 400;
-        font-size: 1.2em;
-        font-weight: 600;
-        padding: 12px 20px;
-        border-radius: 10px;
-    }
-
     .btn-mobile {
         display: block;
     }
@@ -393,6 +383,14 @@
         border-radius: 10px;
         font-size: 1.2em;
         font-weight: 500;
+    }
+
+    .btn-navbar:hover {
+        color: white;
+        background-color: transparent;
+        font-weight: 500;
+        padding: 12px 20px;
+        transition: 300ms;
     }
 
     .btn-download {

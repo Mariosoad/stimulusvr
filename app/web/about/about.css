@@ -798,7 +798,7 @@
     }
 
     .child-container-about {
-        width: 80%;
+        width: 85%;
         display: flex;
         flex-direction: column;
         align-items: flex-start;
