@@ -34,8 +34,8 @@ export default function RootLayout({ children }) {
         <link rel="icon" href="https://imagedelivery.net/Mag7Wvw4aqPxUrAH8_Tfkw/e8816703-684a-45ab-8101-50f128b37c00/mobile" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Stimulus Platform</title>
-        <meta name="description" content="Descubre destinos increíbles y reserva tus vuelos y tours con la Agencia de viajes Briptravel. Tenemos los mejores precios y opciones para hacer de tus viajes una experiencia inolvidable" />
-        <meta name="keywords" content="Agencia de viajes, pasajes de avión, tours, destinos, viajes, vuelos" />
+        <meta name="description" content="Stimulus VR" />
+        <meta name="keywords" content="Stimulus VR" />
         <link rel="canonical" href="https://stimulusvr.com/" />
         <link rel="alternate" hreflang="es" href="https://www.stimulusvr.com" />
         <link rel="alternate" hreflang="en" href="https://stimulusvr.com/" />
