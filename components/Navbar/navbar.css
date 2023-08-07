@@ -354,6 +354,10 @@
         margin: 0px !important;
     }
 
+    .btn-toggle-navbar{
+        padding-right: 0px !important;
+    }
+
 }
 
 /**
@@ -362,6 +366,13 @@
  * -------------------------------------------------------------------
  */
 @media (max-width: 512px) {
+    .container-navigation .bg-body-tertiary {
+        width: 85%;
+        height: 100%;
+        padding: 0px !important;
+        background-color: transparent !important;
+    }
+
     .container-navigation {
         width: 100%;
         height: auto;
