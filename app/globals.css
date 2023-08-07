@@ -129,6 +129,7 @@ body {
   max-width: 100vw;
   overflow-x: hidden;
   background-color: #1d2228 !important;
+  scroll-behavior: smooth;
 
   /* width */
   ::-webkit-scrollbar {
@@ -155,7 +156,7 @@ body {
   color: rgb(var(--foreground-rgb));
   background-color: #1d2228;
   background-image: url("https://imagedelivery.net/Mag7Wvw4aqPxUrAH8_Tfkw/26c88590-fd0d-4758-b3fa-b0d3d22e8600/mobile");
-
+  scroll-behavior: smooth;
 }
 
 a {
@@ -177,21 +178,25 @@ a {
   background-color: #1d2228;
   scroll-behavior: smooth;
   background-image: url("https://imagedelivery.net/Mag7Wvw4aqPxUrAH8_Tfkw/26c88590-fd0d-4758-b3fa-b0d3d22e8600/mobile");
+  scroll-behavior: smooth;
 }
 
 /* width */
 body::-webkit-scrollbar {
   width: 10px;
+  scroll-behavior: smooth;
 }
 
 /* Track */
 body::-webkit-scrollbar-track {
   background: #bbbbbb;
+  scroll-behavior: smooth;
 }
 
 /* Handle */
 body::-webkit-scrollbar-thumb {
   background: #6a6a6a;
+  scroll-behavior: smooth;
 }
 
 /* Handle on hover */

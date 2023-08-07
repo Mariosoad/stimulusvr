@@ -356,7 +356,8 @@
         border: 1px solid hsla(0, 0%, 100%, .3);
         border-radius: 8px;
         background-color: transparent;
-        margin-top: 50px;
+        margin-top: 40px;
+        margin-top: 20px;
         -webkit-transition: .2s;
         transition: .2s;
         text-align: center;
@@ -547,6 +548,7 @@
         border-radius: 8px;
         background-color: transparent;
         margin-top: 50px;
+        margin-bottom: 20px;
         -webkit-transition: .2s;
         transition: .2s;
         text-align: center;

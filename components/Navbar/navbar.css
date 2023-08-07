@@ -7,7 +7,7 @@
 
 .container-navigation {
     position: fixed;
-    z-index: 9999 !important;
+    z-index: 999 !important;
 }
 
 .container-fluid {
@@ -175,7 +175,6 @@
 
     .btn-navbar:hover {
         color: white;
-        border-bottom: 1px solid white;
         background-color: transparent;
         font-weight: 500;
         padding: 12px 20px;
@@ -194,8 +193,8 @@
     }
 
     .container-nav-brand img {
-        width: 60px;
-        height: 60px;
+        width: 50px;
+        height: 50px;
     }
 }
 
@@ -219,8 +218,8 @@
     }
 
     .container-nav-brand img {
-        width: 60px;
-        height: 60px;
+        width: 50px;
+        height: 50px;
     }
 }
 
@@ -379,8 +378,8 @@
     }
 
     .img-logo-nav {
-        width: 60px;
-        height: 60px;
+        width: 50px;
+        height: 50px;
     }
 
     .navigation {

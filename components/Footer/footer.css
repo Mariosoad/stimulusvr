@@ -21,6 +21,7 @@
 }
 
 .email:hover {
+    font-size: 0.8em;
     background-color: transparent !important;
     border: none;
     color: white !important;
@@ -422,5 +423,8 @@
         color: #878f9a;
         font-size: 1em;
         font-weight: 600;
+    }
+    .email{
+        padding-left: 5px;
     }
 }

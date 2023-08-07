@@ -13,7 +13,7 @@ export default function Hero() {
 
     const isTabletOrMobile = useMediaQuery({ maxWidth: 768 })
     return (
-        <div className='container-hero'>
+        <div id="home" className='container-hero'>
             <div className='child-container-hero'>
                 <div className='tittle-hero'>
                     <h1>STIMULUS</h1>
@@ -27,8 +27,8 @@ export default function Hero() {
                         and hangouts within a secure environment.
                     </p>
                     <div>
-                        <a className='btn button-hero'>
-                            TRY OUR DEMO <IoIosArrowDroprightCircle style={{ fontSize: "22px" }} />
+                        <a href="#pricing" className='btn button-hero'>
+                            PURCHASE NOW <IoIosArrowDroprightCircle style={{ fontSize: "22px" }} />
                         </a>
                     </div>
                 </div>

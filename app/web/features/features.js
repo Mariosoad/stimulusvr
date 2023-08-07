@@ -43,22 +43,21 @@ export default function Features() {
     }
 
     return (
-        <div className="container-feature">
+        <div id="features" className="container-feature">
             <div className="child-container-feature">
-                <h2>Available for Desktop, Mobile, VR</h2>
+                <h2 data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">Available for Desktop, Mobile, VR</h2>
                 <div>
                     {arrayBoard}
                 </div>
                 <p className='try-container'>TRY IT ON</p>
                 <div className='container-button'>
-                    <a className='btn button-hero'
-                        href="https://www.stimulusvr.com/StimulusLauncher_WindowsInstaller.exe">
+                    <a className='btn button-hero' href="https://www.stimulusvr.com/StimulusLauncher_WindowsInstaller.exe" target='_blank'>
                         <BsWindows /> Windows</a>
-                    <a className='btn button-hero'
-                        href="https://sidequestvr.com/app/1194/stimulus">
+                    <a className='btn button-hero' href="https://sidequestvr.com/app/1194/stimulus" target='_blank'>
                         <SiOculus /> Meta Quest</a>
                 </div>
             </div>
+            <div className='ellipse-gradient'></div>
         </div>
     )
 }

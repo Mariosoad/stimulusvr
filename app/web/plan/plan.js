@@ -43,9 +43,9 @@ export default function Plan() {
     }
 
     return (
-        <div className='container-plan'>
+        <div id="pricing" className='container-plan'>
             <div className='child-container-plan'>
-                <h2>Select your plan of your choice, no need to pay extra money</h2>
+                <h2 data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">Select your plan of your choice, no need to pay extra money</h2>
                 <div className='board-plan'>
                     {arrayBoardPlan}
                 </div>

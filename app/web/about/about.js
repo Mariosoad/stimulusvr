@@ -9,10 +9,10 @@ import "./about.css"
 
 export default function About() {
     return (
-        <div className="container-about">
+        <div id="about" className="container-about">
             <div className="child-container-about">
                 <div className='container-box-about'>
-                    <h2>Need a custom solution for simulating your own training environments?</h2>
+                    <h2 data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">Need a custom solution for simulating your own training environments?</h2>
                     <div className='box-about'>
                         <video autoPlay muted loop src="https://stimulusvr.com/video/polina.mp4"></video>
                         <div className='background-video'></div>
@@ -26,7 +26,7 @@ export default function About() {
                 </div>
                 <div className='container-card-about'>
                     <div>
-                        <h2>No need for obsolete <br></br> e-learning tools</h2>
+                        <h2 data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">No need for obsolete <br></br> e-learning tools</h2>
                     </div>
                     <div className='card-about right'>
                         <p>VR reduced the training from long periods of time to minutes,
@@ -47,10 +47,6 @@ export default function About() {
                         No worries, our app also works in Desktop and mobile devices.
                     </p>
                 </div>
-
-                {/* <a className='btn button-hero'>
-                    PURCHASE NOW <IoIosArrowDroprightCircle style={{ fontSize: "22px" }} />
-                </a> */}
             </div>
         </div>
     )

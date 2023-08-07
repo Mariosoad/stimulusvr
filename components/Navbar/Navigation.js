@@ -25,8 +25,8 @@ export default function Navigation() {
             <Navbar expand="xl" className="bg-body-tertiary">
                 <Container fluid>
                     <div className="container-nav-brand">
-                        <Link href="/">
-                            <Image className="img-logo-nav" width={60} height={60}
+                        <Link href="#home">
+                            <Image className="img-logo-nav" width={50} height={50}
                                 src="https://imagedelivery.net/Mag7Wvw4aqPxUrAH8_Tfkw/e8816703-684a-45ab-8101-50f128b37c00/mobile" alt="Logo Maxiviajes" />
                         </Link>
                         <div className="container-nav-login">
@@ -38,17 +38,17 @@ export default function Navigation() {
 
                     <Navbar.Offcanvas className="container-offcanvas" show={menuOpen}>
                         <Offcanvas.Header closeButton onClick={() => setMenuOpen(false)}>
-                            <Link href="/">
-                                <Image className="img-logo-nav" width={60} height={60}
+                            <Link href="#home">
+                                <Image className="img-logo-nav" width={50} height={50}
                                     src="https://imagedelivery.net/Mag7Wvw4aqPxUrAH8_Tfkw/e8816703-684a-45ab-8101-50f128b37c00/mobile" alt="Logo Maxiviajes" />
                             </Link>
                         </Offcanvas.Header>
                         <Offcanvas.Body>
                             <Nav className="nav-offcanvas flex-grow-1 nav-container" >
-                                <Link className="btn-navbar" href="#" onClick={() => setMenuOpen(false)}>Home </Link>
-                                <Link className="btn-navbar" href="#" onClick={() => setMenuOpen(false)}>Feature </Link>
-                                <Link className="btn-navbar" href="#" onClick={() => setMenuOpen(false)}>About</Link>
-                                <Link className="btn-navbar" href="#" onClick={() => setMenuOpen(false)}>Pricing</Link>
+                                <Link className="btn-navbar" href="#home" onClick={() => setMenuOpen(false)}>Home </Link>
+                                <Link className="btn-navbar" href="#features" onClick={() => setMenuOpen(false)}>Feature </Link>
+                                <Link className="btn-navbar" href="#about" onClick={() => setMenuOpen(false)}>About</Link>
+                                <Link className="btn-navbar" href="#pricing" onClick={() => setMenuOpen(false)}>Pricing</Link>
                                 <Link className="btn-navbar" href="#" onClick={() => setMenuOpen(false)}>Contact</Link>
                                 <Link className="btn-download" href="#" onClick={() => setMenuOpen(false)}>Download</Link>
                             </Nav>

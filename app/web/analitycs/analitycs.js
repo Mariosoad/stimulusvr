@@ -6,7 +6,7 @@ export default function Analitycs() {
     return (
         <div className='container-analitycs'>
             <div className='child-container-analitycs'>
-                <h2>Weekly Analytics reports, custom measured for your needs!</h2>
+                <h2 data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">Weekly Analytics reports, custom measured for your needs!</h2>
                 <div className='anim-analitycs'>
                     <div className='container-cards'>
                         <div className='card-analitycs left-box'>
