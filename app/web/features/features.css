@@ -514,8 +514,6 @@
         left: 0;
         right: 0;
         bottom: 0;
-        background-image: radial-gradient(circle farthest-corner at 115% 14%, rgba(0, 155, 222, .2), rgba(1, 147, 195, 0) 16%);
-        transform: rotate(-12deg);
-        /* Agrega la rotación deseada aquí */
+        background-image: radial-gradient(circle farthest-corner at 115% 20%, rgba(0, 155, 222, .2), rgba(1, 147, 195, 0) 20%);
     }
 }
