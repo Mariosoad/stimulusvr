@@ -49,9 +49,9 @@ export default function Features() {
                 <div>
                     {arrayBoard}
                 </div>
-                <p className='try-container'>TRY IT ON</p>
+                <p className="try-container">TRY IT ON</p>
                 <div className='container-button'>
-                    <a className='btn button-hero' href="https://www.stimulusvr.com/StimulusLauncher_WindowsInstaller.exe" target='_blank'>
+                    <a id="dowloadnow" className='btn button-hero' href="https://www.stimulusvr.com/StimulusLauncher_WindowsInstaller.exe" target='_blank'>
                         <BsWindows /> Windows</a>
                     <a className='btn button-hero' href="https://sidequestvr.com/app/1194/stimulus" target='_blank'>
                         <SiOculus /> Meta Quest</a>

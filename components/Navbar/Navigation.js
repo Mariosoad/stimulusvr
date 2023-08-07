@@ -50,7 +50,7 @@ export default function Navigation() {
                                 <Link className="btn-navbar" href="#about" onClick={() => setMenuOpen(false)}>About</Link>
                                 <Link className="btn-navbar" href="#pricing" onClick={() => setMenuOpen(false)}>Pricing</Link>
                                 <Link className="btn-navbar" href="#" onClick={() => setMenuOpen(false)}>Contact</Link>
-                                <Link className="btn-download" href="#" onClick={() => setMenuOpen(false)}>Download</Link>
+                                <Link className="btn-download" href="#dowloadnow" onClick={() => setMenuOpen(false)}>Download</Link>
                             </Nav>
                         </Offcanvas.Body>
                     </Navbar.Offcanvas>

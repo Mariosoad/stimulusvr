@@ -11,6 +11,10 @@
     font-weight: 600;
 }
 
+.child-container-feature{
+    z-index: 9 !important;
+}
+
 .container-button {
     display: flex;
     flex-direction: row;
@@ -40,6 +44,7 @@
     right: 0;
     bottom: 0;
     background-image: radial-gradient(circle farthest-corner at 100% 50%, rgba(0, 155, 222, .2), rgba(1, 147, 195, 0) 25%);
+    z-index: 1;
 }
 
 /** 
@@ -156,7 +161,7 @@
 
     .board-feature-container {
         width: 100%;
-        padding: 30px 0px;
+        padding: 25px 0px;
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -170,7 +175,7 @@
     }
 
     .board-feature-container p {
-        width: 25%;
+        width: 45%;
         color: #878f9a;
     }
 
